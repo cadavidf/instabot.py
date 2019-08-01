@@ -10,24 +10,24 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    login="dronesurfco",
+    password="SpiritofLA$",
+    like_per_day=1254,
+    comments_per_day=121,
+    tag_list=['dronestagram', 'droneworld', 'skypics','mavicpro','droneaddicts','djimavicair','droneheros','fromwhereidrone','dronelife','instadrone','topdowndrone','womenwhodrone'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
-    max_like_for_one_tag=50,
-    follow_per_day=300,
+    max_like_for_one_tag=76,
+    follow_per_day=356,
     follow_time=1 * 60,
-    unfollow_per_day=300,
-    unfollow_break_min=15,
-    unfollow_break_max=30,
+    unfollow_per_day=259,
+    unfollow_break_min=13,
+    unfollow_break_max=34,
     log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
-    comment_list=[["this", "the", "your"],
+    comment_list=[["this drone", "the drone ", "your drone"],
                   ["photo", "picture", "pic", "shot", "snapshot"],
                   ["is", "looks", "feels", "is really"],
                   ["great", "super", "good", "very good", "good", "wow",
@@ -41,8 +41,8 @@ bot = InstaBot(
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
+        'second', 'stuff', 'art', 'project', 'love', 'food', 'blog',
+        'free', 'keren', 'indo', 'art', 'shop',
         'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
         'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
         'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
